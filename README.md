@@ -16,14 +16,17 @@ Perfect for forms, inputs, and custom validation logic.
 
 ---
 
-## 📦 Installation  npm install @faishal/validatorx
+## 📦 Installation
 
 ```bash
-npm install validatorx
+npm install @faishal-dev/validatorx
+
+
+
 🔧 Usage (React Example)
-jsx
-Copy code
-import { useValidator } from "@faishal/validatorx";
+
+
+import { useValidator } from "@faishal-dev/validatorx";
 
 export default function App() {
   const { errors, validate } = useValidator({
@@ -62,7 +65,11 @@ export default function App() {
     </form>
   );
 }
+
+
 🧠 Rules Supported
+
+
 Rule	Description	Example
 required	Field cannot be empty	{ type: "required" }
 min	Minimum length required	{ type: "min", value: 3 }
@@ -70,41 +77,43 @@ email	Must be a valid email	{ type: "email" }
 
 More rules coming soon…
 
+
 🎯 Core API
 validate(rules, data)
+
 Pure JS validation engine.
 
 Returns:
 
-js
-Copy code
 {
   fieldName: "Error message"
 }
+
+
 useValidator(rules)
+
 React hook that returns:
 
-js
-Copy code
 {
   errors,
   validate,
   reset
 }
+
 📄 License
+
 MIT © Faishal
 
-yaml
-Copy code
 
 ---
 
-# ⭐ Why this version is better?
+# 🔍 **What Was Fixed?**
 
-✔ Perfect markdown formatting  
-✔ Code blocks properly highlighted  
-✔ Table properly aligned  
-✔ Clean section dividers  
-✔ npm-ready  
+✔ Installation command corrected  
+✔ Code blocks properly closed  
+✔ Table aligned  
+✔ Extra `yaml` / `Copy code` text removed  
+✔ Formatting cleaned  
+✔ Title sections uniform  
 
 ---

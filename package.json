@@ -1,6 +1,6 @@
 {
-  "name": "@faishal/validatorx",
-  "version": "0.1.0",
+  "name": "@faishal-dev/validatorx",
+  "version": "0.1.1",
   "description": "Lightweight validation engine + React hook",
   "main": "dist/index.cjs",
   "module": "dist/index.js",
