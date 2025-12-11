@@ -16,14 +16,14 @@ Perfect for forms, inputs, and custom validation logic.
 
 ---
 
-## 📦 Installation
+## 📦 Installation  npm install @faishal/validatorx
 
 ```bash
 npm install validatorx
 🔧 Usage (React Example)
 jsx
 Copy code
-import { useValidator } from "validatorx";
+import { useValidator } from "@faishal/validatorx";
 
 export default function App() {
   const { errors, validate } = useValidator({

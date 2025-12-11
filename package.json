@@ -1,5 +1,5 @@
 {
-  "name": "validatorx",
+  "name": "@faishal/validatorx",
   "version": "0.1.0",
   "description": "Lightweight validation engine + React hook",
   "main": "dist/index.cjs",
@@ -9,6 +9,10 @@
   "exports": {
     "import": "./dist/index.js",
     "require": "./dist/index.cjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/faishal549/validatorx.git"
   },
   "files": [
     "dist"
